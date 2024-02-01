@@ -1,0 +1,42 @@
+repo_name: hercial61/doc-en
+report_id: 450c75d07077da82cec53ee3577aee5d
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-01T18:18:02+00:00'
+requested_by: Danack
+provider: github
+branch: master
+detected_tools_count: 3
+tools:
+- name: XML
+  description: A simple, very flexible text format
+  website_url: http://www.w3.org/XML/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2045/xml-logo.png
+  detection_source_url: https://github.com/hercial61/doc-en
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/hercial61/doc-en
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/hercial61/doc-en/blob/master/.github/workflows/check-whitespace.yml
+  detection_source: ".github/workflows/check-whitespace.yml"
+  last_updated_by: Tim Düsterhus
+  last_updated_on: 2023-01-09 18:59:49.000000000 Z
